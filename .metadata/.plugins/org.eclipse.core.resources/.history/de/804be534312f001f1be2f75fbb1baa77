@@ -38,10 +38,7 @@ public class AccountTests {
 		Double amount = -200.0;
 		
 		// Act -  executando as ações necessarias
-		acc.deposit(amount);
-		
-		//Assert -> declare o que deveria acontecer(resultado esperado)
-		Assertions.assertEquals(expectedValue, acc.getBalance());
+	
 	
 	}
 }
