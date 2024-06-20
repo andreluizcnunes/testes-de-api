@@ -1,0 +1,13 @@
+package entities;
+
+public class Account {
+	
+	private Long id;
+	private Double balance;
+	
+	public Account() {
+		
+	}
+	
+	
+}
