@@ -85,17 +85,18 @@ public class AccountTests {
 	
 	@Test
 	public void withdrawShouldThrowExceptrionWhenInsufficientBalance() {
-		// Padrão AAA		
+		// Padrão AAA
+		
+		// Arrange
+		Double balanceAccount = 800.0;
+		Account acc = AccountFactory.createAccount(balanceAccount);
+		Double valueWithdraw = 500.00;
+		Double balance = balanceAccount - valueWithdraw;
+		
+		// Act
+		acc.withdraw(valueWithdraw);
 		
 		// Assert
-		Assertions.assertThrows(IllegalArgumentException.class, () -> {
-			// Arrange
-			Double balanceAccount = 800.0;
-			Account acc = AccountFactory.createAccount(balanceAccount);
-			Double valueWithdraw = 900.00;
-			
-			// Act
-			acc.withdraw(valueWithdraw);
-		});
+		Assertions.assertThrows(IllegalArgumentException.class, null)
 	}
 }

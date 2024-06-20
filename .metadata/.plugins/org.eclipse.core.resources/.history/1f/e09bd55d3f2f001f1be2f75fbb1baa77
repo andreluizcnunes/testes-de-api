@@ -92,7 +92,7 @@ public class AccountTests {
 			// Arrange
 			Double balanceAccount = 800.0;
 			Account acc = AccountFactory.createAccount(balanceAccount);
-			Double valueWithdraw = 900.00;
+			Double valueWithdraw = 500.00;
 			
 			// Act
 			acc.withdraw(valueWithdraw);

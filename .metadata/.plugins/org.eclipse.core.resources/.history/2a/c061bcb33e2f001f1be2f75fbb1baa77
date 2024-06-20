@@ -66,7 +66,6 @@ public class AccountTests {
 		
 	}
 	
-	@Test
 	public void withdrawShouldDecreaseBalanceWhenSufficientBalance() {
 		// Padrão AAA
 		
@@ -81,21 +80,5 @@ public class AccountTests {
 		
 		// Assert
 		Assertions.assertEquals(balance, acc.getBalance());
-	}
-	
-	@Test
-	public void withdrawShouldThrowExceptrionWhenInsufficientBalance() {
-		// Padrão AAA		
-		
-		// Assert
-		Assertions.assertThrows(IllegalArgumentException.class, () -> {
-			// Arrange
-			Double balanceAccount = 800.0;
-			Account acc = AccountFactory.createAccount(balanceAccount);
-			Double valueWithdraw = 900.00;
-			
-			// Act
-			acc.withdraw(valueWithdraw);
-		});
 	}
 }
