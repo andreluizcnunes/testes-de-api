@@ -1,21 +1,5 @@
 INDEX VERSION 1.134+C:\Estudos\Nelio Alves\spring\2 - Java Spring Expert\2 - Teste automatizados\pratica\.metadata\.plugins\org.eclipse.jdt.core
-1877862689.index
-4203546524.index
-1552422472.index
-2040744269.index
 2458785934.index
-2960562321.index
-2725756071.index
+3892300958.index
 1865797976.index
-1385753822.index
 409556741.index
-2909312224.index
-2502100712.index
-1315657067.index
-1242191350.index
-2354493790.index
-2762355811.index
-583776391.index
-635364661.index
-2120924967.index
-1452592223.index
